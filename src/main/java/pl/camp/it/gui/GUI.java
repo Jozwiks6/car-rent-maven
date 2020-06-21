@@ -1,3 +1,8 @@
+package pl.camp.it.gui;
+
+import pl.camp.it.db.VehicleRepository;
+import pl.camp.it.model.Vehicle;
+
 import java.util.Scanner;
 
 public class GUI {

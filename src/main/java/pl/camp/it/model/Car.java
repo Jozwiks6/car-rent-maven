@@ -1,3 +1,5 @@
+package pl.camp.it.model;
+
 public class Car extends Vehicle {
 
 

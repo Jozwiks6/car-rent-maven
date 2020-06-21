@@ -1,3 +1,5 @@
+package pl.camp.it.model;
+
 public class Vehicle {
     private int id;
     private String brand;

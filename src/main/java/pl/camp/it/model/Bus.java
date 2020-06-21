@@ -1,3 +1,5 @@
+package pl.camp.it.model;
+
 public class Bus extends Vehicle {
 
     private int personsAmount;

@@ -1,8 +1,14 @@
+package pl.camp.it.db;
+
+import pl.camp.it.model.Bus;
+import pl.camp.it.model.Car;
+import pl.camp.it.model.Vehicle;
+
 public class VehicleRepository {
-    private Vehicle[] Vehicle = new Vehicle[10];
+    private pl.camp.it.model.Vehicle[] Vehicle = new Vehicle[10];
 
 
-    VehicleRepository() {
+    public VehicleRepository() {
         Car c1 = new Car(1, "BMW", "3", "dsadas");
         Car c2 = new Car(2, "Toyta", "Corolla", "dsadsad");
         Car c3 = new Car(3, "Audi", "a4", "sdawdwadvvddsa");
